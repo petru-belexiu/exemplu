@@ -7,7 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             string name = System.IO.File.ReadAllText("name.txt");
-            Console.WriteLine("Goodbye {0}", name);
+            Console.WriteLine("See you later {0}", name);
             Console.ReadKey();
         }
     }
