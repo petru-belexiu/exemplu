@@ -7,7 +7,7 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             string name = Console.ReadLine();
-            Console.WriteLine("Hi {0}", name);
+            Console.WriteLine("Bye {0}", name);
             Console.ReadKey();
         }
     }
